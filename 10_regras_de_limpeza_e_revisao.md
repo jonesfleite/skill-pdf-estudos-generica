@@ -14,17 +14,19 @@ A revisão deve eliminar excesso, repetição e trechos que não ensinam nada no
 
 Remover ou reescrever:
 
-- parágrafos repetidos;
-- explicações duplicadas;
-- aberturas iguais em vários capítulos;
-- conclusões iguais em vários capítulos;
-- frases genéricas;
-- excesso de "em resumo";
-- excesso de "é importante entender";
-- comentários sobre o próprio PDF;
-- comentários sobre a formatação;
-- comentários sobre a conversa;
-- qualquer trecho que não seja conteúdo de estudo.
+* parágrafos repetidos;
+* explicações duplicadas;
+* aberturas iguais em vários capítulos;
+* conclusões iguais em vários capítulos;
+* frases genéricas;
+* excesso de "em resumo";
+* excesso de "é importante entender";
+* comentários sobre o próprio PDF;
+* comentários sobre a formatação;
+* comentários sobre a conversa;
+* qualquer trecho que não seja conteúdo de estudo.
+* informações de Tamanho planejado nos pdfs.
+* informações sobre o planejamento d criação do PDF.
 
 ## Evitar repetição entre volumes
 
@@ -64,20 +66,21 @@ Antes de finalizar uma coleção, verificar:
 
 O PDF final deve conter somente:
 
-- título;
-- sumário;
-- introdução do assunto;
-- capítulos;
-- exemplos;
-- exercícios;
-- revisão;
-- conclusão;
-- referências ou próximos passos, quando necessário.
+* título;
+* sumário;
+* introdução do assunto;
+* capítulos;
+* exemplos;
+* exercícios;
+* revisão;
+* conclusão;
+* referências ou próximos passos, quando necessário.
 
 Não conter:
 
-- instruções internas;
-- justificativas da IA;
-- explicações sobre formatação;
-- comentários sobre geração do arquivo;
-- mensagens de conversa.
+* instruções internas;
+* justificativas da IA;
+* explicações sobre formatação;
+* comentários sobre geração do arquivo;
+* mensagens de conversa.
+
