@@ -204,11 +204,10 @@ Instruções para ser lido pela IA:
 ## Comando de uso sugerido
 
 ```text
-Use a Skill PDF de Estudos Genérica do link do GitHub para planejar um material de estudo sobre o assunto que vou informar. Leia todos os arquivos do repositório e responda somente o resumo e o status de leitura de cada arquivos em uma mensagem breve. Monte o escopo, os subassuntos, os volumes e as perguntas necessárias. Não gere o PDF final antes da minha aprovação. Link: {link}
+
+Use a Skill PDF de Estudos Genérica do link do GitHub para planejar um material de estudo sobre o assunto que vou informar. Leia todos os arquivos do repositório e responda somente o resumo e o status de leitura de cada arquivos em uma mensagem breve. Monte o escopo, os subassuntos, os volumes e as perguntas necessárias. Não gere o PDF final antes da minha aprovação. Link: https://github.com/jonesfleite/skill-pdf-estudos-generica
 
 ```
-Após informe o link e depois o assunto
-
 
 ## Manutenção
 
