@@ -201,7 +201,13 @@ Use a Skill PDF de Estudos Genérica para planejar um material de estudo sobre o
 
 Instruções para ser lido pela IA:
 
-Acesse e leia todos os arquivos .md do repositório da Skill PDF de Estudos Genérica antes de responder. Comece pelo README.md, depois leia o SKILL.md, os módulos 00 a 11, e consulte modelos, templates e exemplos quando forem relevantes. Responda somente que leu os arquivos e o que entendeu de forma textual, depois diga o status de leitura de todos os arquivos do repositório, mas somente termine quando for "LIDO" todo de todos. Use essa skill para planejar um material de estudo sobre o assunto que vou informar. Primeiro monte o escopo, os subassuntos, os volumes e as perguntas necessárias. Não gere o PDF final antes da minha aprovação.
+## Comando de uso sugerido
+
+```text
+Use a Skill PDF de Estudos Genérica do link do GitHub para planejar um material de estudo sobre o assunto que vou informar. Leia todos os arquivos do repositório e responda somente o resumo e o status de leitura de cada arquivos em uma mensagem breve. Monte o escopo, os subassuntos, os volumes e as perguntas necessárias. Não gere o PDF final antes da minha aprovação. Link: {link}
+
+```
+Após informe o link e depois o assunto
 
 
 ## Manutenção
