@@ -6,22 +6,23 @@ Esta skill orienta a IA a criar PDFs e coleções de estudo sobre qualquer assun
 
 A skill é genérica. Ela não deve mencionar projetos, empresas, produtos ou contextos pessoais específicos, a menos que o usuário informe que deseja relacionar o assunto a um projeto próprio.
 
-## Arquivos de apoio
+## Mapa de leitura recomendado
 
-Ao usar esta skill, seguir os módulos abaixo:
-
-- `00_papel_da_ia.md`
-- `01_fluxo_de_trabalho.md`
-- `02_perguntas_obrigatorias.md`
-- `03_taxonomia_de_assuntos.md`
-- `04_estrutura_do_pdf.md`
-- `05_estilo_de_escrita.md`
-- `06_exemplos_e_codigo.md`
-- `07_volumes_e_tamanho.md`
-- `08_formatacao_livro.md`
-- `09_relacao_com_projeto_do_usuario.md`
-- `10_regras_de_limpeza_e_revisao.md`
-- `11_fontes_pesquisa_e_atualizacao.md`
+1. 00_papel_da_ia.md
+2. 01_fluxo_de_trabalho.md
+3. 02_perguntas_obrigatorias.md
+4. 03_taxonomia_de_assuntos.md
+5. 04_estrutura_do_pdf.md
+6. 05_estilo_de_escrita.md
+7. 06_exemplos_e_codigo.md
+8. 07_volumes_e_tamanho.md
+9. 08_formatacao_livro.md
+10. 09_relacao_com_projeto_do_usuario.md
+11. 10_regras_de_limpeza_e_revisao.md
+12. 11_fontes_pesquisa_e_atualizacao.md
+13. modelos/[modelo correspondente ao tema]
+14. templates/[template necessário]
+15. exemplos/[exemplo compatível]
 
 Quando o tema pertencer a uma categoria específica, usar também o modelo correspondente da pasta `modelos`.
 
