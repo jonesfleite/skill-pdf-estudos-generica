@@ -1,5 +1,25 @@
 # Skill: PDF de Estudos Genérica
 
+# Regras para usar o GitHub como link da skill
+
+## Mapa de leitura obrigatório para IA
+
+Ao usar esta skill a partir de um link do GitHub, a IA não deve considerar que leu a skill apenas por abrir o `README.md`.
+
+Antes de aplicar a skill, a IA deve ler os arquivos nesta ordem:
+
+1. `README.md`, para entender a finalidade geral da skill.
+2. `SKILL.md`, que é o arquivo principal e coordena o comportamento da IA.
+3. Todos os arquivos numerados de `00_...md` até `11_...md`, pois eles detalham papel da IA, fluxo de trabalho, perguntas obrigatórias, estrutura do PDF, estilo de escrita, exemplos, volumes, formatação, relação com projeto do usuário, revisão e atualização.
+4. Os arquivos da pasta `modelos/`, quando o assunto solicitado pertencer a uma categoria específica, como biblioteca Python, framework web, IA/dados, DevOps, matemática, protocolo, linguagem de programação ou tecnologia.
+5. Os arquivos da pasta `templates/`, quando for necessário seguir um formato de saída mais padronizado.
+6. Os arquivos da pasta `exemplos/`, quando houver um exemplo parecido com o pedido do usuário.
+
+Se a IA não conseguir acessar algum arquivo, ela deve informar claramente quais arquivos foram lidos e quais não foram lidos, em vez de afirmar que leu toda a skill.
+
+Depois da leitura, a IA deve resumir internamente a regra principal da skill: primeiro planejar o material, perguntar o que for necessário, propor escopo e volumes, aguardar aprovação quando o tema for amplo e só então gerar o conteúdo final.
+
+
 ## Finalidade
 
 Esta skill orienta a IA a criar PDFs e coleções de estudo sobre qualquer assunto, com escrita pedagógica, estrutura clara, progressão didática, revisão editorial e formatação confortável para leitura.

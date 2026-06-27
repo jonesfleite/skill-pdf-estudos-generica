@@ -199,42 +199,9 @@ Use a Skill PDF de Estudos Genérica para planejar um material de estudo sobre o
 
 ## Regras para usar o GitHub como link da skill
 
-Quando esta skill for usada a partir de um link do GitHub, a IA deve primeiro abrir o repositório informado pelo usuário, localizar o arquivo SKILL.md e seguir o mapa de leitura recomendado.
+Instruções para ser lido pela IA:
 
-Se a IA tiver acesso ao repositório pelo navegador, deve usar os links relativos acima.
-
-Se for necessário acessar os arquivos diretamente pelo formato Raw do GitHub, use a variável RAW_BASE:
-
-RAW_BASE=https://raw.githubusercontent.com/USUARIO/NOME_DO_REPOSITORIO/BRANCH
-
-### Exemplo:
-
-RAW_BASE=https://raw.githubusercontent.com/jonesfleite/skill-pdf-estudos-generica/main
-
-Com essa variável, os arquivos podem ser acessados assim:
-
-1. 00_papel_da_ia.md - {RAW_BASE}/00_papel_da_ia.md
-2. 01_fluxo_de_trabalho.md - {RAW_BASE}/01_fluxo_de_trabalho.md
-3. 02_perguntas_obrigatorias.md - {RAW_BASE}/02_perguntas_obrigatorias.md
-4. 03_taxonomia_de_assuntos.md - {RAW_BASE}/03_taxonomia_de_assuntos.md
-5. 04_estrutura_do_pdf.md - {RAW_BASE}/04_estrutura_do_pdf.md
-6. 05_estilo_de_escrita.md - {RAW_BASE}/05_estilo_de_escrita.md
-7. 06_exemplos_e_codigo.md - {RAW_BASE}/06_exemplos_e_codigo.md
-8. 07_volumes_e_tamanho.md - {RAW_BASE}/07_volumes_e_tamanho.md
-9. 08_formatacao_livro.md - {RAW_BASE}/08_formatacao_livro.md
-10. 09_relacao_com_projeto_do_usuario.md - {RAW_BASE}/09_relacao_com_projeto_do_usuario.md
-11. 10_regras_de_limpeza_e_revisao.md - {RAW_BASE}/10_regras_de_limpeza_e_revisao.md
-12. 11_fontes_pesquisa_e_atualizacao.md - {RAW_BASE}/11_fontes_pesquisa_e_atualizacao.md
-
-Para outro usuário, outro repositório ou outra branch, altere apenas:
-
-USUARIO
-NOME_DO_REPOSITORIO
-BRANCH
-
-### Exemplo em outro repositório:
-
-RAW_BASE=https://raw.githubusercontent.com/outro-usuario/minha-skill-pdf/main
+Acesse e leia todos os arquivos .md do repositório da Skill PDF de Estudos Genérica antes de responder. Comece pelo README.md, depois leia o SKILL.md, os módulos 00 a 11, e consulte modelos, templates e exemplos quando forem relevantes. Use essa skill para planejar um material de estudo sobre o assunto que vou informar. Primeiro monte o escopo, os subassuntos, os volumes e as perguntas necessárias. Não gere o PDF final antes da minha aprovação.
 
 
 ## Manutenção
